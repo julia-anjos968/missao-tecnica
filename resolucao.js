@@ -107,5 +107,8 @@ let artefatoIncorretoAlpha = inventarioAlpha.shift();
 console.log("Depois do shift");
 console.table(inventarioAlpha);
 
+let primeiroItemBetaRemovido = inventarioBeta.shift();
 
+console.log("Depois do shift");
+console.table(inventarioBeta)
 
