@@ -68,4 +68,10 @@ let inventarioAlpha = [
 
   console.log("Artefato Removido:" , artefatoBetaRemovido);
 
+  inventarioAlpha.push(["Golden Troup", "Terra", "11200"]);
+  inventarioAlpha.push(["Selo da insulação", "Terra", "5400"]);
+  inventarioAlpha.push(["Além-vida Cinábrio" ,"Terra" , "40000"]);
+ 
+   console.log("Depois do push");
+   console.table(inventarioAlpha);
  
