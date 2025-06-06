@@ -123,3 +123,8 @@ let novaListaAlpha = inventarioAlpha.slice (14,23);
 
 console.log(`os 10 últimos itens do inventário Alpha: ${novaListaAlpha}`);
 console.table(novaListaAlpha);
+
+let quintoItemSubstituido = inventarioAlpha.splice(5,1);
+
+console.log(`quinto item da Alpha foi substituído: ${quintoItemSubstituido}`);
+console.table(quintoItemSubstituido);
