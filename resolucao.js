@@ -92,5 +92,14 @@ let inventarioAlpha = [
     console.log("Depois do unshift");
     console.table(inventarioAlpha);
     
+    let itemBetaRemovido = inventarioBeta.splice(6);
 
+    console.log("Depois do splice");
+    console.table(inventarioBeta);
+    
+    inventarioBeta.unshift(["Chave de Portais", "Júpiter", 5900]);
+    
+        console.log("Depois do unshift");
+        console.table(inventarioBeta);
+    
 
