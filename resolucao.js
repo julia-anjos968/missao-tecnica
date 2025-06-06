@@ -75,3 +75,9 @@ let inventarioAlpha = [
    console.log("Depois do push");
    console.table(inventarioAlpha);
  
+   inventarioBeta.push(["Visão do Olho Humano", "Kepler", "15781"]);
+   inventarioBeta.push(["Contribuições para a Astronomia", "Kepler", "5416"]);
+  
+    console.log("Depois do push");
+    console.table(inventarioBeta);
+  
