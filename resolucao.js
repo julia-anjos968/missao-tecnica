@@ -113,3 +113,4 @@ console.log("Depois do shift");
 console.table(inventarioBeta)
 
 console.log(`nomes dos 10 primeiros itens da beta: ${inventarioBeta.slice(0,10)}`);
+
