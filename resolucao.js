@@ -133,3 +133,8 @@ let doisItensBetaRemovido = inventarioBeta.splice(11,12);
 
 console.log(`Dois itens no meio do inventário Beta estão removidos: ${doisItensBetaRemovido}`);
 console.table(doisItensBetaRemovido);
+
+let unicaEstruturaAlphaBeta = inventarioAlpha.concat(inventarioBeta);
+
+console.log(`unica estrutura alpha e beta: ${unicaEstruturaAlphaBeta}`);
+console.table(unicaEstruturaAlphaBeta);
