@@ -81,3 +81,16 @@ let inventarioAlpha = [
     console.log("Depois do push");
     console.table(inventarioBeta);
   
+    let itemRemovidoAlpha = inventarioAlpha.splice(4);
+
+    console.log("Depois do splice");
+    console.table(inventarioAlpha);
+
+
+    inventarioAlpha.unshift(["Flor de Andrômeda", "Andrômeda", 13000]);
+
+    console.log("Depois do unshift");
+    console.table(inventarioAlpha);
+    
+
+
