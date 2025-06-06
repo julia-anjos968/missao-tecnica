@@ -53,7 +53,7 @@ let inventarioAlpha = [
     ["Capa de Invisibilidade", "Terra", 3900],
     ["Terminal de Dobra", "Alpha Centauri", 10500]
   ];
-  
+  /*
   let itemAlphaRemovido = inventarioAlpha.pop();
 
   console.log("Depois do pop");
@@ -87,7 +87,7 @@ let inventarioAlpha = [
     console.table(inventarioAlpha);
 
 
-    inventarioAlpha.unshift(["Flor de Andrômeda", "Andrômeda", 13000]);
+    inventarioAlpha.unshift(["Flor de Andrômeda", "Andrômeda", "13000"]);
 
     console.log("Depois do unshift");
     console.table(inventarioAlpha);
@@ -100,6 +100,12 @@ let inventarioAlpha = [
     inventarioBeta.unshift(["Chave de Portais", "Júpiter", 5900]);
     
         console.log("Depois do unshift");
-        console.table(inventarioBeta);
+        console.table(inventarioBeta); */
     
+let artefatoIncorretoAlpha = inventarioAlpha.shift();
+
+console.log("Depois do shift");
+console.table(inventarioAlpha);
+
+
 
